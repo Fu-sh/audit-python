@@ -1,0 +1,27 @@
+加载背景音乐
+播放背景音乐(单曲循环)
+我方飞机在固定位置出现
+interval=0
+number=飞机数量
+while ture:
+		if 如果用户点击关闭程序
+		关闭程序
+	interval += 1
+		if interval == 50 and number<30
+		interval = 0
+		生成小飞机
+
+	小飞机向下移动
+	屏幕刷新
+		if 用户鼠标移动
+		   我方飞机位置 = 鼠标位置
+                   屏幕刷新
+		if 我方飞机没撞到敌人
+		   continue
+		elif 我方飞机撞到别人飞机
+		   break
+于我方飞机处播放爆炸动画
+播放爆炸音乐
+屏幕刷新
+print("游戏结束")
+背景音乐结束(淡出)
